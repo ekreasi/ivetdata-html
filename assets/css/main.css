@@ -246,7 +246,7 @@ a {
     padding: 200px 0px 200px 0px;
   }
   .bg-dog-sixthsection img {
-    width: 40%;
+    width: 50%;
     position: absolute;
     top: 0;
     right: 0;
@@ -395,7 +395,7 @@ nav{
 }
 
 .img-header img{
-  width: 100%;
+  width: 120%;
 }
 
 .content-header {
