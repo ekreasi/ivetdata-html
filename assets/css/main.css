@@ -187,8 +187,18 @@ a {
     top:0;
     right:0;
   }
+/* Second Section  */
   .second-section {
     padding: 200px 0px 100px;
+  }
+  .carousel-indicators {
+      bottom: -50px !important;
+  }
+  .carousel-indicators .active {
+    background-color: #fdb94a !important;
+  }
+  .carousel-indicators li {
+    background-color:#eee !important;  
   }
 /*  Third Section */
   .third-section {
