@@ -109,6 +109,19 @@ body, html {
   font-weight:normal;
   font-style: italic;
 }
+
+label.dont-yet {
+  color:#666;
+  font-size:17px;
+  text-align:center;
+  font-family:'helvetica light',sans-serif;
+  font-weight:400;
+  padding:20px 0px;
+  font-style: italic;
+}
+label.dont-yet a {
+  color:#0DB1BD;
+}
 .btn-login {
   background-color:#FDB94A;
   border-radius:60px;
