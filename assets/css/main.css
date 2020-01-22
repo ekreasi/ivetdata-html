@@ -478,6 +478,20 @@ nav{
 	margin-bottom: 0px;
 }
 
+.content-item .color-yellowv3{
+  font-family:'helvetica bold',sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fdb94a;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+
 .content-item .color-yellowv2{
   font-family:'helvetica bold',sans-serif;
   font-size: 70px;

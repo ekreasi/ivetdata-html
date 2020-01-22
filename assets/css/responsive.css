@@ -342,6 +342,19 @@
 	    background: url(../img/paxpattern.png);
 	    padding: 100px 0px 0px;
 	}
+	.content-item .color-yellowv3 {
+    font-family: 'helvetica light',sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fdb94a;
+    margin-right: 20px;
+    margin-bottom: 0px;
+	}
 
 }
 
@@ -507,163 +520,7 @@
 	}
 }
 
-@media only screen and (max-width: 768px)  {
-	#top-menu {
-    padding: 0px 0px;
-	}
-	.sticky .are-pet {
-    padding: 22px 0px !important;
-	}
-	.navbar-default .navbar-nav>li>a {
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
-    font-family: 'helvetica light',sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff !important;
-    padding: 30px 10px;
-	}
-	.are-pet {
-    padding: 20px 0px;
-	}
-	.btn-login-nav {
-    font-size: 14px;
-    background: white;
-    border-radius: 50px;
-    padding: 5px 20px;
-    font-weight: 600;
-    color: black;
-    margin: 1px 1px;
-	}
-	.sticky.navbar-default .navbar-nav>li>a {
-    color: #000 !important;
-    padding: 30px 10px !important;
-	}
-	.sticky .logo-img {
-    width: 190px !important;
-	}
-	.are-pet p {
-    float: left;
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
-    font-family: 'helvetica light',sans-serif;
-    font-size: 18px;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff !important;
-    padding: 4px 26px;
-    border-radius: 50px;
-    background: #0000001c;
-    margin: auto;
-    font-weight: lighter;
-	}
-	.slider-ivet .item-slide .content-info label {
-    font-family: 'helvetica bold',sans-serif;
-    font-size: 48px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.17;
-    letter-spacing: normal;
-    text-align: left;
-    color: #c44560;
-	}
-	.slider-ivet .item-slide .content-info p {
-    font-family: 'helvetica bold',sans-serif;
-    font-size: 22px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.17;
-    letter-spacing: normal;
-    text-align: left;
-    color: #0b1b3f;
-	}
-	.slider-ivet .item-slide .content-info {
-    position: absolute;
-    top: 0px;
-    padding: 43px 80px;
-	}
-	.item-value-ivet {
-    text-align: center;
-    border-radius: 15px;
-    box-shadow: 0px 0px 6px 3px #80808030;
-    padding: 20px;
-    background: white;
-    margin-bottom: 20px;
-	}
-	.content-item .color-blue {
-    font-family: 'helvetica bold',sans-serif;
-    font-size: 38px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    text-align: left;
-    color: #0b1b3f;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 0px;
-	}
-	.content-item .color-yellow {
-    font-family: 'helvetica bold',sans-serif;
-    font-size: 42px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fdb94a;
-    margin-right: 20px;
-    margin-bottom: 0px;
-	}
-	.content-item p {
-    font-family: 'helvetica light',sans-serif;
-    font-size: 20px;
-    letter-spacing: normal;
-    text-align: left;
-    color: #0b1b3f;
-    font-weight: 100;
-	}
-	.icon-img-point{
-		width: 50px;
-	}
-	.content-item .color-yellowv2 {
-    font-family: 'helvetica bold',sans-serif;
-    font-size: 38px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    color: #fdb94a;
-    margin-right: 20px;
-    margin-bottom: 0px;
-	}
-	.content-item .color-bluev2 {
-    font-family: 'helvetica bold',sans-serif;
-    font-size: 45px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    text-align: left;
-    color: #0b1b3f;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 0px;
-	}
-	.information-brand{
-		margin-bottom: 100px;
-	}
-}
+
 /*@media only screen and (max-width: 1114px) and (min-width: 768px) {
 	#top-menu {
     padding: 0px 30px;
