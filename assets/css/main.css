@@ -88,6 +88,21 @@ body, html {
   font-size: 40px !important;
   color: #fff !important;
 }
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-right: 15px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.information-brand{
+  margin-bottom: 100px;
+}
 .bottom-header-custom {
   background: url(../../assets/img/bottom-popup-login.png)top center/100% no-repeat transparent;
   height: 204px;
@@ -158,14 +173,14 @@ a {
 }
 .sticky.navbar-default .navbar-nav>li>a {
   color:#000 !important;
-  padding: 20px 30px !important;
+  padding: 30px 30px !important;
 }
 .sticky .are-pet {
-  padding: 10px 0px !important;
+  padding: 20px 0px !important
 }
 
 .sticky .logo-img {
-  width: 130px !important;
+  width: 190px  !important;
 }
 
 .sticky + .content {
