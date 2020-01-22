@@ -35,6 +35,12 @@
 	    padding: 20px 30px !important;
 	}
 
+	.sticky .btn-login-nav {
+	    background-color: #FDB94A;
+	    color: #fff;
+	    width: 85%;
+	}
+
 	.are-pet p {
 	    width: 85%;
 	    float: left;
@@ -263,6 +269,7 @@
 	  color: #fdb94a;
 		margin-right: 20px;
 		margin-bottom: 0px;
+		margin-top: 15px;
 	}
 
 	.content-item .color-yellowv2{
@@ -343,6 +350,13 @@
     color: #fdb94a;
     margin-right: 20px;
     margin-bottom: 0px;
+	}
+	.icon-img-pointv2 {
+	    position: absolute;
+	    z-index: 9;
+	    width: 50px;
+	    top: 33px;
+	    right: 24px;
 	}
 
 }
@@ -507,6 +521,16 @@
 	.information-brand{
 		margin-bottom: 50px;
 	}
+	.pl-right-mob {
+	    float: right;
+	}
+	.icon-img-pointv2 {
+	    position: absolute;
+	    z-index: 9;
+	    width: 50px;
+	    top: 33px;
+	    right: 24px;
+	}
 }
 
 
@@ -520,7 +544,8 @@
 	.icon-img-point{
 		position: absolute;
 	    z-index: 9;
-	    width: 80px;
+	    width: 50px;
+	    top: 0px;
 	}
 	.item-value-ivet {
 	    text-align: center;
