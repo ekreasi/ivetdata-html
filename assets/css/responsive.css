@@ -136,6 +136,7 @@
 	    text-align: left;
 	    color: #0b1b3f;
 	    font-weight: 100;
+	    float: left;
 	}
 
 	.point-ivet .item-ivet-point p {
@@ -259,17 +260,35 @@
 
 	.content-item .color-yellow{
 		font-family:'helvetica light',sans-serif;
-	  font-size: 25px;
-	  font-weight: bold;
-	  font-stretch: normal;
-	  font-style: normal;
-	  line-height: 1.25;
-	  letter-spacing: normal;
-	  text-align: left;
-	  color: #fdb94a;
+		font-size: 25px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.25;
+		letter-spacing: normal;
+		text-align: left;
+		color: #fdb94a;
 		margin-right: 20px;
 		margin-bottom: 0px;
 		margin-top: 15px;
+		float: left;
+    	width: 100%;
+	}
+
+	.content-item .color-yellowv4 {
+	    font-family: 'helvetica light',sans-serif;
+	    font-size: 25px;
+	    font-weight: bold;
+	    font-stretch: normal;
+	    font-style: normal;
+	    line-height: 1.25;
+	    letter-spacing: normal;
+	    text-align: left;
+	    color: #fdb94a;
+	    margin-right: 20px;
+	    margin-bottom: 0px;
+	    margin-top: 15px;
+	    float: left;
 	}
 
 	.content-item .color-yellowv2{
@@ -339,17 +358,19 @@
 	    padding: 100px 0px 0px;
 	}
 	.content-item .color-yellowv3 {
-    font-family: 'helvetica light',sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fdb94a;
-    margin-right: 20px;
-    margin-bottom: 0px;
+	    font-family: 'helvetica light',sans-serif;
+	    font-size: 40px;
+	    font-weight: bold;
+	    font-stretch: normal;
+	    font-style: normal;
+	    line-height: 1.25;
+	    letter-spacing: normal;
+	    text-align: left;
+	    color: #fdb94a;
+	    margin-right: 20px;
+	    margin-bottom: 0px;
+        float: left;
+    	width: 100%;
 	}
 	.icon-img-pointv2 {
 	    position: absolute;
@@ -545,7 +566,7 @@
 		position: absolute;
 	    z-index: 9;
 	    width: 50px;
-	    top: 0px;
+	    top: -5px;
 	}
 	.item-value-ivet {
 	    text-align: center;
@@ -573,5 +594,16 @@
 	}
 	.slider-ivet .item-slide .content-info p , .slider-ivet .item-slide .content-info label {
 		margin: 0px;
+	}
+}
+
+@media only screen and (max-width: 1024px)  {
+	.information-brand img {
+	    width: 192px;
+	}
+	.information-sosmed img {
+	    float: left;
+	    width: 50px;
+	    margin-right: 20px;
 	}
 }
