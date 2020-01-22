@@ -4,7 +4,7 @@
   <title>Ivet Data</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
   <link type="text/css" href="assets/css/main.css" rel="stylesheet" />
   <link type="text/css" href="assets/css/responsive.css" rel="stylesheet" />
@@ -29,9 +29,9 @@
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#"> Home</a></li>
-              <li><a href="#"> About us</a></li>
-              <li><a href="#">Contact</a></li>
-              <li class="are-pet"><p>Are You Vet?. <span>Go Here</span></p><button class="btn btn-login-nav" data-toggle="modal" data-target="#myModal">Login</button></li>
+              <li><a href="#about" > About us</a></li>
+              <li><a href="#contact" >Contact</a></li>
+              <li class="are-pet"><p>Are You Vet?. <span>Go Here</span></p><button  href="application/view/website/modal-login.php" class="btn btn-login-nav" data-toggle="modal" data-target="#theModal">Login</button></li>
             </ul>
           </div>
         </div>
@@ -164,7 +164,7 @@
       </div>
     </div>
     <!-- 4th Section  -->
-    <div class="fourth-section">
+    <div class="fourth-section" id="about">
       <div class="bg-dog-fourthsection">
         <img src="assets/img/img-fourth-section.png">
       </div>
@@ -257,7 +257,7 @@
       </div>
     </div>
     <!--  7th Section -->
-    <div class="seventh-section">
+    <div class="seventh-section" id="contact">
       <footer class="footer-style">
         <div class="container bg-paxtern">
           <div class="col-md-12">
@@ -303,7 +303,7 @@
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div id="theModal" class="modal fade text-center">
       <div class="modal-dialog" role="document">
         <div class="modal-content modal-content-custom">
           <div class="modal-header top-header-custom">
@@ -356,8 +356,6 @@
 <div class="copy-wright text-center">
   <p>@2020 Ivet Data</p>
 </div> -->
-
-
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/custom-library.js"></script>
