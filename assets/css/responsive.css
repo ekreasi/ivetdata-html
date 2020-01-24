@@ -355,7 +355,7 @@
 	}
 	.bg-paxtern {
 	    background: url(../img/paxpattern.png);
-	    padding: 100px 0px 0px;
+	    padding: 70px 0px 0px;
 	}
 	.content-item .color-yellowv3 {
 	    font-family: 'helvetica light',sans-serif;
@@ -600,7 +600,9 @@
 @media only screen and (max-width: 1024px)  {
 	.information-brand img {
 	    width: 192px;
+	    margin-bottom: 20px;
 	}
+
 	.information-sosmed img {
 	    float: left;
 	    width: 50px;

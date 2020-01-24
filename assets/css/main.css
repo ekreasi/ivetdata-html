@@ -250,6 +250,12 @@ a {
     position: relative;
   }
 
+  .areyouvet-section {
+    background:#fff;
+    padding: 120px 0px 120px 0px;
+    position: relative;
+  }
+
   .third-section::after {
     content: '';
     background: url('../../assets/img/union1.png')center bottom/100% no-repeat #fff;
@@ -876,4 +882,26 @@ nav{
 
 .point-ivet{
   float: left;
+}
+
+.imgareuvet img{
+  width: 100%;
+  float: left;
+}
+
+
+.mb-0{
+  margin-bottom: 0px;
+} 
+
+.ml-0{
+  margin-right: 0px;
+} 
+
+.mr-0{
+  margin-left: 0px;
+} 
+
+.p-0{
+  padding: 0px;
 }
