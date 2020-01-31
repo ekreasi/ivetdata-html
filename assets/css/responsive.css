@@ -82,23 +82,26 @@
 
 	.fourth-section {
 	    position: relative;
-	    background: url(../../assets/img/bg-dogfeet.png)top center/60% no-repeat transparent;
+	    background: url(../../assets/img/bg-dogfeet.png)top center/230% no-repeat transparent;
 	    padding: 60px 0px 0px 0px;
 	    margin: 50px 0px;
+	    z-index: 0;
 	}
 
 	.fifth-section{
 		position: relative;
-	    background: url(../../assets/img/bg-dogfeet.png)top center/60% no-repeat transparent;
+	    background: url(../../assets/img/bg-dogfeet.png)top center/230% no-repeat transparent;
 	    padding: 60px 0px 0px 0px;
 	    margin: 50px 0px;
+	    z-index: 0;
 	}
 
 	.sixth-section {
 	    position: relative;
-	    background: url(../../assets/img/bg-dogfeet.png)top center/60% no-repeat transparent;
+	    background: url(../../assets/img/bg-dogfeet.png)top center/230% no-repeat transparent;
 	   	padding: 60px 0px 0px 0px;
 	    margin: 50px 0px;
+	    z-index: 0;
 	}
 
 	.btn-login-nav {
@@ -556,6 +559,17 @@
 
 
 @media only screen and (max-width: 767px)  {
+	.mob-show-hide{
+	  display: block;
+	}
+
+	.web-show-hide{
+	  display: none;
+	}
+
+	.content-top{
+  		padding-top: 0%; 
+	}
 
 	.slider-ivet .item-slide .content-info {
 	    position: absolute;

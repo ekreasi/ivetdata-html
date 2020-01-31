@@ -99,6 +99,7 @@ body, html {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
+    z-index: 0;
 }
 .information-brand{
   margin-bottom: 100px;
@@ -168,7 +169,7 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(255,255,255,0.8) !important;
+  background-color: rgba(255, 255, 255, 0.87) !important;
   border-radius: 0;
   display: block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
@@ -267,28 +268,28 @@ a {
 /*  Fourth Section */
   .fourth-section {
     position:relative;
-    background:url('../../assets/img/bg-dogfeet.png')top center/60% no-repeat transparent;
-    padding: 200px 0px 250px 0px;
+    background:url('../../assets/img/bg-dogfeet.png')top center/60% repeat transparent;
+    padding: 100px 0px 50px 0px;
     background-color: white;
     position: relative;
   }
   .bg-dog-fourthsection img {
-    width: 50%;
-    position: absolute;
+    width: 100%;
+    position: relative;
     top: 0;
     right: 0;
   }
 /*  Fifth Section */
   .fifth-section {
     position:relative;
-    background:url('../../assets/img/bg-dogfeet.png')top center/60% no-repeat transparent;
-    padding: 200px 0px;
+    background:url('../../assets/img/bg-dogfeet.png')top center/60% repeat transparent;
+    padding: 100px 0px;
     background-color: white;
     position: relative;
   }
   .bg-dog-fifthsection img {
-    width: 50%;
-    position: absolute;
+    width: 100%;
+    position: relative;
     top: 0;
     left: 0;
   }
@@ -296,8 +297,8 @@ a {
 /*  Sixth Section */
   .sixth-section {
     position:relative;
-    background:url('../../assets/img/bg-dogfeet.png')top center/60% no-repeat transparent;
-    padding: 200px 0px 200px 0px;
+    background:url('../../assets/img/bg-dogfeet.png')top center/60% repeat transparent;
+    padding: 100px 0px 200px 0px;
     background-color: white;
     position: relative;
   }
@@ -387,6 +388,8 @@ nav{
 .are-pet span{
   font-size: 18px;
   font-weight: bold;
+  color: white;
+  text-decoration: none;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -904,4 +907,27 @@ nav{
 
 .p-0{
   padding: 0px;
+}
+.p-right-0{
+  padding-right: 0px;
+}
+
+.p-top-40{
+  padding-top: 40%;
+}
+
+.p-left-0{
+  padding-left: 0px;
+}
+
+.mob-show-hide{
+  display: none;
+}
+
+.web-show-hide{
+  display: block;
+}
+
+.content-top{
+  padding-top: 40%; 
 }
