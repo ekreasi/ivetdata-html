@@ -2957,7 +2957,7 @@ html[xmlns] .slides {
 }
 
 .flex-control-paging li a:hover {
-	color: #8fc424;
+	color: #fa6501;
 }
 
 .flex-control-paging li a:hover:after {
@@ -3546,8 +3546,8 @@ div.ppt {
 
 @media (min-width: 768px) {
 	#toTop {
-		bottom: 30px;
-		right: 30px;
+	    bottom: 30px;
+	    right: 150px;
 	}
 }
 

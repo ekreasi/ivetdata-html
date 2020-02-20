@@ -302,3 +302,14 @@
     z-index: 10;
     position: relative;
 }
+
+
+.page_header.affix {
+    position: fixed;
+    z-index: 1001;
+    border-radius: 0px;
+}
+
+.bg-orange{
+    background-color: #fa6400;
+}
