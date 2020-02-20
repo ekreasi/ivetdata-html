@@ -277,3 +277,7 @@
 .slides li::after{
     background: black;
 }
+
+.m-r-10{
+    margin-right: 10px;
+}
