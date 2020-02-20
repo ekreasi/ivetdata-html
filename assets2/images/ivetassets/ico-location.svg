@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="26px" viewBox="0 0 20 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>pin (1)</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-492.000000, -3560.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="pin-(1)" transform="translate(492.000000, 3560.000000)">
+                <g id="Shape" transform="translate(10.000000, 13.000000) scale(-1, 1) translate(-10.000000, -13.000000) ">
+                    <path d="M10,0 C4.48567708,0 0,4.37404297 0,9.75 C0,16.9429609 9.22635417,25.4921875 9.61916667,25.8529375 C9.7265625,25.950793 9.86328125,26 10,26 C10.1367188,26 10.2734375,25.950793 10.3808854,25.8529375 C10.7736458,25.4921875 20,16.9429609 20,9.75 C20,4.37404297 15.5143229,0 10,0 Z M10,15.1666836 C6.93682292,15.1666836 4.44442708,12.7365977 4.44442708,9.75 C4.44442708,6.76340234 6.936875,4.33331641 10,4.33331641 C13.063125,4.33331641 15.5555729,6.76345312 15.5555729,9.75 C15.5555729,12.7365469 13.0631771,15.1666836 10,15.1666836 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
