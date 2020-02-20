@@ -4828,7 +4828,6 @@ body.boxed {
 }
 
 .divided-content > * + *:before {
-	content: "|";
 	display: inline-block;
 	padding-right: 15px;
 	color: #667e96;
