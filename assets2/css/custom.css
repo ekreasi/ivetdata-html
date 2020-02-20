@@ -281,3 +281,8 @@
 .m-r-10{
     margin-right: 10px;
 }
+
+.scroll_button_wrap{
+    position: relative;
+    z-index: 999;
+}

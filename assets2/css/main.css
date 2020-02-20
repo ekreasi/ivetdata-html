@@ -3666,22 +3666,14 @@ div.ppt {
 	position: absolute;
 	left: 50%;
 	bottom: 0;
-	width: 60px;
-	height: 60px;
+	width: 115px;
+	height: 115px;
 	border-radius: 50%;
 	text-align: center;
 	color: #344a5f !important;
-	background-color: #ffffff;
-	box-shadow: 2px 0 20px rgba(0, 0, 0, 0.2);
 	-webkit-transform: translate(-50%, 50%);
 	transform: translate(-50%, 50%);
-	z-index: 2;
-}
-
-.scroll_button:before {
-	content: "\f107";
-	font-family: FontAwesome;
-	line-height: 60px;
+	z-index: 999;
 }
 
 .scroll_button:hover {
