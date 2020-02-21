@@ -22,6 +22,10 @@
 	    right: 150px;
 	}
 
+	.intro-layer .c-white{
+		color: #344a5f !important;
+	}
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -77,5 +81,13 @@
 	    color: #ffffff;
 	    background-color: #f7b82b;
 	    border-radius: 50%;
+	}
+	.sepalator-style-search {
+	    background: transparent;
+	    margin: 0px;
+	    padding: 0px;
+	    position: relative;
+	    bottom: 10px;
+	    z-index: 0;
 	}
 }
