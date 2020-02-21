@@ -25,6 +25,12 @@
 	.intro-layer .c-white{
 		color: #344a5f !important;
 	}
+	.feet-dog {
+	    position: absolute;
+	    right: 37px;
+	    z-index: 9;
+	    top: -77px;
+	}
 
 }
 
