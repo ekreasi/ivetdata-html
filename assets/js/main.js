@@ -697,8 +697,8 @@ function windowLoadInit() {
 				useCSS: true,
 				controlNav: dots,   
 				directionNav: nav,
-				prevText: "",
-				nextText: "",
+				prevText: false,
+				nextText: false,
 				smoothHeight: false,
 				slideshowSpeed:10000,
 				animationSpeed:600,
@@ -711,9 +711,9 @@ function windowLoadInit() {
 							self.addClass("animated "+animationClass);
 						}, index*200);
 					});
-					slider.find('.flex-control-nav').find('a').each(function() {
-						jQuery( this ).html('0' + jQuery( this ).html());
-					})
+					// slider.find('.flex-control-nav').find('a').each(function() {
+					// 	jQuery( this ).html('0' + jQuery( this ).html());
+					// })
 				},
 				after :function( slider ){
 					slider.find('.flex-active-slide .slide_description').children().each(function(index){
@@ -750,8 +750,8 @@ function windowLoadInit() {
 				useCSS: true,
 				controlNav: true,   
 				directionNav: false,
-				prevText: "",
-				nextText: "",
+				prevText: false,
+				nextText: false,
 				smoothHeight: false,
 				slideshowSpeed:5000,
 				animationSpeed:800,

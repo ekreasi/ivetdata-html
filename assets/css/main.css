@@ -1572,7 +1572,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 26px;
-	background-color: #ccc;
+	background-color: #ffffff;
 }
 
 h1,
@@ -2914,8 +2914,9 @@ html[xmlns] .slides {
 	left: 0;
 	right: 0;
 	position: absolute;
-	bottom: 25px;
-	z-index: 10;
+	bottom: 70px;
+    z-index: 10;
+    text-align: center;
 }
 
 .flex-control-nav li {
@@ -2943,36 +2944,57 @@ html[xmlns] .slides {
 	font-weight: 700;
 	color: transparent;
 	cursor: pointer;
+	width: 15px;
+	height: 15px;
+    border-radius: 10px;
 }
 
 .flex-control-paging li a:after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	height: 2px;
-	left: 0;
-	right: 0;
-	background-color: rgba(250, 101, 1, 0.59);
-	transition: all 0.2s ease-in-out 0s;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.59);
+    transition: all 0.2s ease-in-out 0s;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
 }
 
 .flex-control-paging li a:hover {
-	color: #fa6501;
+	position: relative;
+    width: 30px;
+    padding-bottom: 10px;
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    color: transparent;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background: #eaab00;
+}
+
+.flex-nav-prev , .flex-nav-next{
+	display: none;
 }
 
 .flex-control-paging li a:hover:after {
 	height: 5px;
-	background-color: #fa6501;
+	background-color: transparent;
 }
 
 .flex-control-paging li a.flex-active {
-	color: #fa6501;
-	width: 50px;
+	color: transparent;
+    background: #eaab00;
 }
 
 .flex-control-paging li a.flex-active:after {
-	height: 5px;
-	background-color: #fa6501;
+	color: transparent;
+    background: transparent;
 }
 
 .cs .flex-control-paging li a:after,
@@ -9184,7 +9206,7 @@ section .intro_section .slide_description_wrapper {
 ** Main Menu styles
 */
 .sf-menu a {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
 }
 
