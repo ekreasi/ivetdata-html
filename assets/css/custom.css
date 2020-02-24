@@ -152,7 +152,7 @@
 
 .vertical-item.content-padding .item-contentv2 {
     padding: 10px;
-    text-align: justify;
+    text-align: left;
 }
 
 .read-more2{
@@ -355,4 +355,8 @@
 
 .pt-20{
     padding-top: 20px !important;
+}
+
+.pb-45{
+    padding-bottom: 45px !important;
 }

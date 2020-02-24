@@ -2006,7 +2006,7 @@ button,
 input[type="submit"] {
 	font-size: 16px;
 	font-weight: 500;
-	padding: 22px 30px 22px;
+	padding: 15px 30px 15px;
 	margin-bottom: 4px;
 	line-height: 1;
 	display: inline-block;
@@ -7486,7 +7486,7 @@ body.active-side-header.slide-right .page_header_side {
 
 .ls .theme_button:hover, .ls .theme_button:focus, .ls .theme_button:active {
 	color: #ffffff;
-	background-color: #667e96;
+	background-color: #FF5722;
 }
 
 .ls .theme_button.inverse:hover, .ls .theme_button.inverse:focus, .ls .theme_button.inverse:active {
