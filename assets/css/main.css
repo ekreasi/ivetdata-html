@@ -9489,7 +9489,7 @@ section .intro_section .slide_description_wrapper {
 
 	.toggler_left .toggle_menu {
 		right: auto;
-		left: 0;
+		left: -45px;
 		margin-left: 0;
 	}
 }
