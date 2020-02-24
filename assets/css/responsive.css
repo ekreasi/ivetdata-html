@@ -4,6 +4,17 @@
 	}
 }
 
+@media (max-width: 1024px){
+	.sepalator-style-search {
+	    background: transparent;
+	    margin: 0px;
+	    padding: 0px;
+	    position: absolute;
+	    bottom: 120px;
+	    z-index: 0;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	.header_white {
 	    color: #667e96;
@@ -11,12 +22,29 @@
 	    position: relative;
 	    margin: auto;
 	    right: 0px;
-	    top: 0px;
-	    height: 100px !important;
+	    top: -50px;
+	    height: 70px !important;
 	    border-radius: 50px;
 	    z-index: 99;
 	    border: none; 
 	}
+	
+	.page_header {
+	    transition: background 0.2s ease-in-out 0s, margin 0.6s ease-in-out 0s;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    position: relative;
+	    z-index: 1000;
+	    margin: 0;
+	    padding: 0px 40px !important;
+	    height: auto;
+	}
+
+	.pad-topnav {
+	    padding-bottom: 40px;
+	}
+
 	#toTop {
 	    bottom: 30px;
 	    right: 150px;
@@ -30,6 +58,62 @@
 	    right: 37px;
 	    z-index: 9;
 	    top: -77px;
+	}
+	.slider-position {
+	    position: relative;
+	    top: -100px;
+	}
+	.sepalator-style-search {
+	    background: transparent;
+	    margin: 0px;
+	    padding: 0px;
+	    position: absolute;
+	    z-index: 0;
+	    bottom: 240px;
+	}
+
+	
+
+}
+
+@media screen and (max-width: 767px){
+	.widget-show-web{
+		display: none;
+	}
+
+	.pad-topnav {
+	    padding-bottom: 60px;
+	}
+	.header_white {
+	    color: #667e96;
+	    background-color: #ffffff;
+	    position: relative;
+	    margin: auto;
+	    right: 0px;
+	    top: -65px;
+	    height: 70px !important;
+	    border-radius: 50px;
+	    z-index: 99;
+	    border: none; 
+	}
+	.sosmed-style{
+		float: none;
+		padding: 5px 0px;
+	}
+	.nav>li>div {
+	    position: relative;
+	    display: block;
+	    padding: 10px 15px;
+	}
+
+	.nav>li>button {
+	    position: relative;
+	    display: block;
+	    margin: 10px 15px;
+	}
+	.widget-show-mob{
+	    display: block;
+	    margin: 10px 15px
 	}
 
 }
@@ -57,7 +141,7 @@
 	    position: relative;
 	    margin: auto;
 	    right: 0px;
-	    top: 0px;
+	    top: -65px;
 	    height: 70px !important;
 	    border-radius: 50px;
 	    z-index: 99;
@@ -92,8 +176,12 @@
 	    background: transparent;
 	    margin: 0px;
 	    padding: 0px;
-	    position: relative;
-	    bottom: 10px;
+	    position: absolute;
+	    bottom: 195px;
 	    z-index: 0;
+	}
+
+	.img-download img{
+	    width: 165px;
 	}
 }
